@@ -6,12 +6,12 @@
 // });
 
 // var doc = {
-//   email: "zefianalfian78@gmail.com",
-//   username: "rizqi",
+//   email: "nathanaelhananta09@gmail.com",
+//   username: "ZEROBOT",
 // };
 
 // // db.insert(doc)
-// db.find({ username: "bbizqi" }, function (er, r) {
+// db.find({ username: "RakuGans" }, function (er, r) {
 //   console.log(er);
 // });
 
@@ -23,11 +23,11 @@
 const axios = require("axios");
 
 axios.post("http://localhost:3000/users/read", {
-	username: "zef",
-	password: "123",
-	fullName: "ZefianAlfian",
-	email: "tryaha78@gmail.com",
-	apikey: "0987654321"
+	username: "ZeroChanBot",
+	password: "Nathanael2009",
+	fullName: "ZeroGansBot",
+	email: "nathanaelhananta09@gmail.com",
+	apikey: "ZERGANS"
 })
 .then(data => console.log(data.data))
 .catch(er => console.log(er.toJSON()));
