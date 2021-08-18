@@ -15,7 +15,7 @@ const adminRouter = require("./app/routes/adminRoute");
 const ErrorResponse = require("./app/utils/errorResponse");
 
 //config
-const email = "tryaha78@gmail.com";
+const email = "nathanaelhananta09@gmail.com";
 
 const app = express();
 
